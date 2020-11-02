@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/grad5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Course Registration Waiting List"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:paddingTop="50dp"
+        android:gravity="left"
+        android:paddingBottom="50dp"
+        android:textColor="#FFEB3B"
+        android:text="Welcome K.Johns"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_addstudent"
+        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="#E4A425"
+        android:text="@string/addstudent"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_editstudent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:background="#E4A425"
+        android:text="@string/editstudent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_removestudent"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="#E4A425"
+        android:text="@string/removestudent"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:id="@+id/button_viewwaitinglist"
+        android:layout_marginTop="20dp"
+        android:background="#E4A425"
+        android:text="@string/viewwaitinglist"/>
+
+    </LinearLayout>
+
+</LinearLayout>

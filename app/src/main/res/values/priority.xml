@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="priority">
+        <item>Priority</item>
+        <item>1st yr</item>
+        <item>2nd yr</item>
+        <item>3rd yr</item>
+        <item>4th yr</item>
+        <item>Graduate</item>
+    </string-array>
+</resources>
